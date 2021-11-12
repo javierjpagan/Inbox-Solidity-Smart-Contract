@@ -4,29 +4,29 @@ const Web3 = require('web3');
 const web3 = new Web3(ganache.provide());
 
 
-class Car {
-    park() {
-        return 'stopped';
-    }
+// class Car {
+//     park() {
+//         return 'stopped';
+//     }
 
-    drive() {
-        return 'vroom';
-    }
-}
+//     drive() {
+//         return 'vroom';
+//     }
+// }
 
-let car;
+// let car;
 
-beforeEach(() => {
-    car = new Car();
+// beforeEach(() => {
+//     car = new Car();
     
-});
+// });
 
-describe('Car', () => {
-it('can park', () => {
-assert.equal(car.park(), 'stopped');
-    });
+// describe('Car', () => {
+// it('can park', () => {
+// assert.equal(car.park(), 'stopped');
+//     });
 
-    it('can drive', () =>{
-    assert.equal(car.drive(), 'vroom')
-    });
-});
+//     it('can drive', () =>{
+//     assert.equal(car.drive(), 'vroom')
+//     });
+// });
